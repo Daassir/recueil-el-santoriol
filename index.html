@@ -725,7 +725,7 @@ window.addEventListener('popstate', () => {
 
 // Service Worker
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').catch(() => {});
+  navigator.serviceWorker.register('sw.js', { scope: '/recueil-el-santoriol/' }).catch(() => {});
 }
 
 // Init

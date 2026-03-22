@@ -1,10 +1,11 @@
-const CACHE_NAME = 'recueil-v1.0.0';
+const CACHE_NAME = 'recueil-v1.1.0';
+const BASE = '/recueil-el-santoriol/';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/data.js',
-  '/manifest.json',
-  '/icon.svg'
+  BASE,
+  BASE + 'index.html',
+  BASE + 'data.js',
+  BASE + 'manifest.json',
+  BASE + 'icon.svg'
 ];
 
 self.addEventListener('install', e => {
